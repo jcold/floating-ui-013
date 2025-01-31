@@ -24,7 +24,7 @@ dyn_std = "0.3.3"
 leptos = { git = "https://github.com/jcold/leptos0615.git", branch = "master", features = [
     "csr",
 ] }
-leptos_router = { git = "https://github.com/jcold/leptos0615.git", branch = "leptos-0.6", features = [
+leptos_router = { git = "https://github.com/jcold/leptos0615.git", branch = "master", features = [
     "csr",
 ] }
 log = "0.4.22"
