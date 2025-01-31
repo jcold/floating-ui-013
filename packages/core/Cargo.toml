@@ -1,0 +1,17 @@
+[package]
+name = "floating-ui-core"
+description = "Rust port of Floating UI. Positioning library for floating elements: tooltips, popovers, dropdowns, and more."
+homepage = "https://floating-ui.rustforweb.org"
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+dyn_derive.workspace = true
+dyn_std.workspace = true
+floating-ui-utils = { path = "../utils", version = "0.1.3" }
+serde.workspace = true
+serde_json.workspace = true

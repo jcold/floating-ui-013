@@ -1,0 +1,15 @@
+[package]
+name = "floating-ui-dom"
+description = "Rust port of Floating UI. Floating UI for the web."
+homepage = "https://floating-ui.rustforweb.org"
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+floating-ui-core = { path = "../core", version = "0.1.3" }
+floating-ui-utils = { path = "../utils", version = "0.1.3", features = ["dom"] }
+web-sys.workspace = true

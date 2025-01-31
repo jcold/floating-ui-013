@@ -1,0 +1,24 @@
+[package]
+name = "floating-ui-utils"
+description = "Rust port of Floating UI. Utilities for Floating UI."
+homepage = "https://floating-ui.rustforweb.org"
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+cfg-if.workspace = true
+dyn_derive.workspace = true
+dyn_std.workspace = true
+serde.workspace = true
+web-sys = { workspace = true, optional = true }
+
+[features]
+default = []
+dom = ["dep:web-sys"]
+
+[package.metadata.docs.rs]
+all-features = true
